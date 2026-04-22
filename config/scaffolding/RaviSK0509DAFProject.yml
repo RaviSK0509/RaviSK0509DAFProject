@@ -7,11 +7,16 @@ packages:
   gitUrl: https://github.com/RaviSK0509
   gitUsername: RaviSK0509
   gitBranch: main
+- name: WmSalesforceRESTProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_AddIntAPI
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: pub.client:soapClient
   packages:
   - name: WmPublic
@@ -20,82 +25,128 @@ services:
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_MultiPlyIntAPI
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_AddIntAPI_Input
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_AddIntAPI_Output
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_DivideIntAPI_Input
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_DivideIntAPI_Output
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_MultiPlyIntAPI_Input
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_MultiPlyIntAPI_Output
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_AddIntAPI
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_AddIntAPIResponse
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_DivideIntAPI
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_DivideIntAPIResponse
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_MultiPlyIntAPI
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_MultiPlyIntAPIResponse
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:SoapMultiportAPI_PortType_AddIntAPI_Response
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:SoapMultiportAPI_PortType_DivideIntAPI_Response
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:SoapMultiportAPI_PortType_MultiPlyIntAPI_Response
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:genericFault_Response
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.project.ravisk0509daf.soap.connectors:SoapMultiPortConn
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
+- serviceName: project.ravisk0509daf.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:test
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.ravisk0509daf.integrations:Copy_soapDAF
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
@@ -104,38 +155,136 @@ services:
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_AddIntAPI
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.ravisk0509daf.soap.connections:soapTest
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_DivideIntAPI
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_MultiPlyIntAPI
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:SoapMultiportAPI_PortType_AddIntAPI_Response
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:SoapMultiportAPI_PortType_DivideIntAPI_Response
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:SoapMultiportAPI_PortType_MultiPlyIntAPI_Response
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:genericFault_Response
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 configurationVariables:
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.hostnameVerifier
+  : org.apache.http.conn.ssl.DefaultHostnameVerifier
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.connectionEnabled
+  : "true"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.enableCompression
+  : "false"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth_v20.authorizationHeaderInTokenRefresh
+  : "false"
   jdbcfunc.SAPTxStore.failFastMode: false
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.connectTimeout
+  : "30000"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth_v20.refreshToken
+  : "{AES}iVEYOEICT1x7P9RL3dwVv0pQv1IODTw0Qm0vrSHPR8I0XZ0/KrBE7WODHo6AzR16UCzSIDzmJWMBz9xM2q3r2oi23ieuo+FfAfVzOmPvM/OeuESnC/BnICF8Oief1jY6"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.maximumPoolSize
+  : "10"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth.consumerId
+  : 3MVG9pe2TCoA1Pf6F9PMP1LEDssUrTwM.jVrqRUVLEd96hRwHOXIvQYjwyPLVfeuQJGEBhiQ1RdhR0If12PD8
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cx.grant_type
+  : refresh_token
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth_v20.authorizationServerUrl
+  : https://d0o000001qr6keac-dev-ed.my.salesforce.com/services/oauth2/authorize
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.expireTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth_v20.instanceURL
+  : https://d0o000001qr6keac-dev-ed.my.salesforce.com
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth.consumerSecret
+  : "{AES}eHf4cRQmQGsdZGdqwv2Gdu5j3/2DdfhjYEFvfdCDlKeOgTxvtPpeBi/JaLBMXullLZ8cZZ4B5DmVCjPugrMNMmmK1wuN3U1rA1B0VhuZoUw="
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.startupBackoffSecs
+  : "10"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth_v20.accessTokenRefreshURL
+  : https://login.salesforce.com/services/oauth2/token
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.retryIfRequestSentOk
+  : "true"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.socketStaleCheck
+  : "true"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth_v20.authorizationHeaderPrefix
+  : Bearer
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.reuseAddr
+  : "false"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.socketLinger
+  : "-1"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.readTimeout
+  : "30000"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.blockTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.idleTimeout
+  : "-1"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth_v20.accessTokenRefreshURLRequest
+  : URL Query String
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth_v20.refreshAccessToken
+  : "true"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.poolIncrementSize
+  : "1"
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth.accessToken
+  : "{AES}bzO+KX5xKoE0CKrgiYZryK20IDyY0k75Dpx8+f4m/e6oZ70BLisa5LEiD8+tJA4oRvYJF00u1/ZyDaRLgPje0Kh1JtdDKUOFc69EWfpx7gTVsHGqANI7oKdbi8/MG7YoLBbNxqVEaAsx+3jg/q78WGmK1wuN3U1rA1B0VhuZoUw="
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.keepAliveInterval
+  : "300000"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.sockBuffSize
+  : "8192"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.validateAfterInactivity
+  : "1000"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.startupRetryCount
+  : "0"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.minimumPoolSize
+  : "1"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth_v20.scope
+  : offline_access api refresh_token
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.tcpNoDelay
+  : "false"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.retryCount
+  : "4"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.poolable
+  : "true"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.providerUrl
+  : https://d0o000001qr6keac-dev-ed.my.salesforce.com
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.timeoutType
+  : auto
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.cn.enableSNI
+  : "true"
+  ? cloudstreamsconnection.project..ravisk0509daf..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:test.oauth_v20.authenticationServerUrl
+  : https://d0o000001qr6keac-dev-ed.my.salesforce.com/services/oauth2/token
