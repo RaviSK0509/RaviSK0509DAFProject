@@ -1,3 +1,16 @@
 #readAcl for package: RaviSK0509DAFProject
-#Wed Apr 22 10:00:41 GMT 2026
+#Wed Apr 22 10:48:23 GMT 2026
 project=Internal
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:SoapMultiportAPI_PortType_AddIntAPI_Input=Anonymous
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:SoapMultiportAPI_PortType_AddIntAPI_Output=Anonymous
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:SoapMultiportAPI_PortType_DivideIntAPI_Input=Anonymous
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:SoapMultiportAPI_PortType_DivideIntAPI_Output=Anonymous
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:SoapMultiportAPI_PortType_MultiPlyIntAPI_Input=Anonymous
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:SoapMultiportAPI_PortType_MultiPlyIntAPI_Output=Anonymous
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:docTypeRef_tns_AddIntAPI=Anonymous
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:docTypeRef_tns_AddIntAPIResponse=Anonymous
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:docTypeRef_tns_DivideIntAPI=Anonymous
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:docTypeRef_tns_DivideIntAPIResponse=Anonymous
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:docTypeRef_tns_MultiPlyIntAPI=Anonymous
+project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes\:docTypeRef_tns_MultiPlyIntAPIResponse=Anonymous
+project.project.ravisk0509daf.soap.connectors\:SoapMultiPortConn=Anonymous
