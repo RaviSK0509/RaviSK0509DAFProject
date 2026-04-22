@@ -16,10 +16,11 @@
   <value name="transportType">Basic</value>
   <value name="transportUser">vijeta.dixit@ibm.com</value>
   <value name="transportPass">project.ravisk0509daf.soap.connections.soapTest.transportPass</value>
-  <value name="transportServerCertsKeystoreAlias">project.ravisk0509daf.soap.connections.soapTest.transportServerCertsKeystoreAlias</value>
-  <value name="transportServerCertsKeyAlias"></value>
+  <value name="transportServerCertsKeystoreAlias"></value>
+  <null name="transportServerCertsKeyAlias"/>
   <value name="messageUser"></value>
-  <value name="messagePass"></value>
-  <value name="messageServerCertsKeystoreAlias"></value>
-  <value name="messageServerCertsKeyAlias"></value>
+  <null name="messagePass"/>
+  <null name="messageServerCertsKeystoreAlias"/>
+  <null name="messageServerCertsKeyAlias"/>
+  <value name="updateRSD">true</value>
 </Values>
