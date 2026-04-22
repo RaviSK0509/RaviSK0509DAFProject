@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">webServiceDescriptor</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">project.project.ravisk0509daf.soap.connectors:SoapMultiPortConn</value>
+  <value name="node_pkg">RaviSK0509DAFProject</value>
+  <value name="is_public">false</value>
+  <Boolean name="inbound">false</Boolean>
+  <Boolean name="WSICompliant">false</Boolean>
+  <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
+  <value name="targetNamespace">https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI</value>
+  <Boolean name="attachmentEnabled">false</Boolean>
+  <number name="mtomThreshold" type="Integer">0</number>
+  <array name="externalWSDLSources" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="contextURI">http://localhost:5555/</value>
+      <value name="locationURI">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn?wsdl=wsdl0</value>
+      <null name="source"/>
+      <number name="type" type="Integer">1</number>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="contextURI">http://localhost:5555/</value>
+      <value name="locationURI">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn?wsdl=wsdl1</value>
+      <null name="source"/>
+      <number name="type" type="Integer">2</number>
+    </record>
+  </array>
+  <value name="externalWSDLURL">SoapMultiportAPI (4).xml</value>
+  <value name="WSDLURL">http://default-designtime-is-84b5d6589c-wfh22:5555/ws/project.ravisk0509daf.soap.connectors:SoapMultiPortConn?WSDL</value>
+  <value name="definitionName">SoapMultiPortConn</value>
+  <value name="version">V_12_1</value>
+  <value name="schemaDomain">f43d0c53215d46a392f42b136a157ee7</value>
+  <Boolean name="rawArray">true</Boolean>
+  <array name="handlerList" type="record" depth="1">
+  </array>
+  <array name="binderList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="binderName">SoapMultiportAPI_Binder</value>
+      <value name="portAddress">https://awsusdadarnd.int-aws-us.webmethods.io/integration/ws/v2/fla83b78f5a9c79e7b259715/SoapMultiportAPI/SoapMultiportAPI_Port</value>
+      <value name="bindingName">SoapMultiportAPI_Binder</value>
+      <value name="bindingStyle">document</value>
+      <value name="bindingUse">literal</value>
+      <value name="bindingType">SOAP</value>
+      <value name="portName">SoapMultiportAPI_Port</value>
+      <value name="portTypeName">SoapMultiportAPI_PortType</value>
+      <value name="bindingTransport">http://schemas.xmlsoap.org/soap/http</value>
+      <value name="transportType">https</value>
+      <record name="operationMap" javaclass="com.wm.util.Values">
+        <value name="SoapMultiportAPI_Binder_DivideIntAPI">DivideIntAPI</value>
+        <value name="SoapMultiportAPI_Binder_AddIntAPI">AddIntAPI</value>
+        <value name="SoapMultiportAPI_Binder_MultiPlyIntAPI">MultiPlyIntAPI</value>
+      </record>
+      <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
+      <value name="SOAPDirective">ws</value>
+      <Boolean name="useCSQ">false</Boolean>
+    </record>
+  </array>
+  <array name="operationList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">MultiPlyIntAPI</value>
+      <value name="serviceName">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_MultiPlyIntAPI</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI:SoapMultiportAPI_PortType_MultiPlyIntAPI_Input</value>
+          <value name="docType">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_MultiPlyIntAPI_Input</value>
+          <value name="nsOwner">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_MultiPlyIntAPI_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI:SoapMultiportAPI_PortType_MultiPlyIntAPI_Output</value>
+          <value name="docType">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_MultiPlyIntAPI_Output</value>
+          <value name="nsOwner">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_MultiPlyIntAPI_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">DivideIntAPI</value>
+      <value name="serviceName">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_DivideIntAPI</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI:SoapMultiportAPI_PortType_DivideIntAPI_Input</value>
+          <value name="docType">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_DivideIntAPI_Input</value>
+          <value name="nsOwner">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_DivideIntAPI_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI:SoapMultiportAPI_PortType_DivideIntAPI_Output</value>
+          <value name="docType">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_DivideIntAPI_Output</value>
+          <value name="nsOwner">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_DivideIntAPI_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">AddIntAPI</value>
+      <value name="serviceName">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_AddIntAPI</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI:SoapMultiportAPI_PortType_AddIntAPI_Input</value>
+          <value name="docType">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_AddIntAPI_Input</value>
+          <value name="nsOwner">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_AddIntAPI_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI:SoapMultiportAPI_PortType_AddIntAPI_Output</value>
+          <value name="docType">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_AddIntAPI_Output</value>
+          <value name="nsOwner">project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_AddIntAPI_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+  </array>
+  <record name="namespaces" javaclass="com.wm.util.Values">
+    <value name="wsdl">http://schemas.xmlsoap.org/wsdl/</value>
+    <value name="soapjms">http://www.w3.org/2010/soapjms/</value>
+    <value name="mime">http://schemas.xmlsoap.org/wsdl/mime/</value>
+    <value name="tns">https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI</value>
+    <value name="xsd">http://www.w3.org/2001/XMLSchema</value>
+    <value name="http">http://schemas.xmlsoap.org/wsdl/http/</value>
+    <value name="soap12">http://schemas.xmlsoap.org/wsdl/soap12/</value>
+    <value name="soap">http://schemas.xmlsoap.org/wsdl/soap/</value>
+    <value name="soapenc">http://schemas.xmlsoap.org/soap/encoding/</value>
+  </record>
+  <Boolean name="HeadersInPipelineEnabled">false</Boolean>
+  <Boolean name="validateSOAPResponse">true</Boolean>
+  <Boolean name="validateSchemaUsingXerces">false</Boolean>
+  <Boolean name="enableCompatibility">false</Boolean>
+  <Boolean name="omitXSDAny">true</Boolean>
+  <array name="policyIds" type="value" depth="1">
+  </array>
+  <Boolean name="registerDoctypes">true</Boolean>
+  <Boolean name="allTypes">false</Boolean>
+  <Boolean name="generateXOPObjectForBase64Binary">false</Boolean>
+  <null name="originURI"/>
+  <null name="modifiable"/>
+  <value name="externalServiceName">{https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI}SoapMultiportAPI</value>
+  <array name="policyAttachmentList" type="record" depth="1">
+  </array>
+  <Boolean name="filterLoginCredentials">false</Boolean>
+</Values>
