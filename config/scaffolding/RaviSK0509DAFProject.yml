@@ -8,11 +8,7 @@ packages:
   gitUsername: RaviSK0509
   gitBranch: main
 services:
-- serviceName: project.ravisk0509daf.soap.connections:soapTest
-  packages:
-  - name: RaviSK0509DAFProject
-    version: "1.0"
-- serviceName: project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_AddIntAPI
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_AddIntAPI
   packages:
   - name: RaviSK0509DAFProject
     version: "1.0"
@@ -20,6 +16,102 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.832
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_DivideIntAPI
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_MultiPlyIntAPI
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_AddIntAPI_Input
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_AddIntAPI_Output
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_DivideIntAPI_Input
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_DivideIntAPI_Output
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_MultiPlyIntAPI_Input
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:SoapMultiportAPI_PortType_MultiPlyIntAPI_Output
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_AddIntAPI
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_AddIntAPIResponse
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_DivideIntAPI
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_DivideIntAPIResponse
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_MultiPlyIntAPI
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.docTypes:docTypeRef_tns_MultiPlyIntAPIResponse
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:SoapMultiportAPI_PortType_AddIntAPI_Response
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:SoapMultiportAPI_PortType_DivideIntAPI_Response
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:SoapMultiportAPI_PortType_MultiPlyIntAPI_Response
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.responseServices:genericFault_Response
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.project.ravisk0509daf.soap.connectors:SoapMultiPortConn
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.ravisk0509daf.integrations:Copy_soapDAF
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.832
+- serviceName: project.ravisk0509daf.integrations:soapDAF
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_AddIntAPI
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
+- serviceName: project.ravisk0509daf.soap.connections:soapTest
+  packages:
+  - name: RaviSK0509DAFProject
+    version: "1.0"
 - serviceName: project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_DivideIntAPI
   packages:
   - name: RaviSK0509DAFProject
