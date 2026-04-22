@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="SoapMultiportAPI" targetNamespace="https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soapjms="http://www.w3.org/2010/soapjms/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI" xmlns:tns="https://awsusdadarnd.int-aws-us.webmethods.io/integration/wsd/SoapMultiportAPI" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <xsd:element name="AddIntAPI" type="tns:AddIntAPI"/>
+          <xsd:element name="AddIntAPIResponse" type="tns:AddIntAPIResponse"/>
+          <xsd:element name="DivideIntAPI" type="tns:DivideIntAPI"/>
+          <xsd:element name="DivideIntAPIResponse" type="tns:DivideIntAPIResponse"/>
+          <xsd:element name="MultiPlyIntAPI" type="tns:MultiPlyIntAPI"/>
+          <xsd:element name="MultiPlyIntAPIResponse" type="tns:MultiPlyIntAPIResponse"/>
+          <xsd:complexType name="AddIntAPI">
+            <xsd:sequence>
+              <xsd:element name="input1" nillable="true" type="xsd:string"/>
+              <xsd:element name="input2" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="AddIntAPIResponse">
+            <xsd:sequence>
+              <xsd:element name="output" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="DivideIntAPI">
+            <xsd:sequence>
+              <xsd:element name="N1" nillable="true" type="xsd:string"/>
+              <xsd:element name="N2" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="DivideIntAPIResponse">
+            <xsd:sequence>
+              <xsd:element name="Result" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="MultiPlyIntAPI">
+            <xsd:sequence>
+              <xsd:element name="N1" nillable="true" type="xsd:string"/>
+              <xsd:element name="N2" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="MultiPlyIntAPIResponse">
+            <xsd:sequence>
+              <xsd:element name="Result" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        	</xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SoapMultiportAPI_PortType_MultiPlyIntAPI">
+    <wsdl:part name="parameters" element="tns:MultiPlyIntAPI">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SoapMultiportAPI_PortType_AddIntAPIResponse">
+    <wsdl:part name="parameters" element="tns:AddIntAPIResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SoapMultiportAPI_PortType_DivideIntAPIResponse">
+    <wsdl:part name="parameters" element="tns:DivideIntAPIResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SoapMultiportAPI_PortType_MultiPlyIntAPIResponse">
+    <wsdl:part name="parameters" element="tns:MultiPlyIntAPIResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SoapMultiportAPI_PortType_DivideIntAPI">
+    <wsdl:part name="parameters" element="tns:DivideIntAPI">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SoapMultiportAPI_PortType_AddIntAPI">
+    <wsdl:part name="parameters" element="tns:AddIntAPI">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="SoapMultiportAPI_PortType">
+    <wsdl:operation name="MultiPlyIntAPI">
+      <wsdl:input message="tns:SoapMultiportAPI_PortType_MultiPlyIntAPI">
+    </wsdl:input>
+      <wsdl:output message="tns:SoapMultiportAPI_PortType_MultiPlyIntAPIResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DivideIntAPI">
+      <wsdl:input message="tns:SoapMultiportAPI_PortType_DivideIntAPI">
+    </wsdl:input>
+      <wsdl:output message="tns:SoapMultiportAPI_PortType_DivideIntAPIResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddIntAPI">
+      <wsdl:input message="tns:SoapMultiportAPI_PortType_AddIntAPI">
+    </wsdl:input>
+      <wsdl:output message="tns:SoapMultiportAPI_PortType_AddIntAPIResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SoapMultiportAPI_Binder" type="tns:SoapMultiportAPI_PortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="MultiPlyIntAPI">
+      <soap:operation soapAction="SoapMultiportAPI_Binder_MultiPlyIntAPI" style="document"/>
+      <wsdl:input>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DivideIntAPI">
+      <soap:operation soapAction="SoapMultiportAPI_Binder_DivideIntAPI" style="document"/>
+      <wsdl:input>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddIntAPI">
+      <soap:operation soapAction="SoapMultiportAPI_Binder_AddIntAPI" style="document"/>
+      <wsdl:input>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SoapMultiportAPI">
+    <wsdl:port name="SoapMultiportAPI_Port" binding="tns:SoapMultiportAPI_Binder">
+      <soap:address location="https://awsusdadarnd.int-aws-us.webmethods.io/integration/ws/v2/fla83b78f5a9c79e7b259715/SoapMultiportAPI/SoapMultiportAPI_Port"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
