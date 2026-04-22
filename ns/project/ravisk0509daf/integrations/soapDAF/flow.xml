@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Invoke predefined:SoapMultiPortConn" TIMEOUT="" SERVICE="project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_AddIntAPI" VALIDATE-IN="" VALIDATE-OUT="" DISABLED="true">
+<INVOKE NAME="Invoke predefined:SoapMultiPortConn" TIMEOUT="" SERVICE="project.ravisk0509daf.soap.connectors.SoapMultiPortConn_.connectors:SoapMultiportAPI_PortType_AddIntAPI" VALIDATE-IN="" VALIDATE-OUT="">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
